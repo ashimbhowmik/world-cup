@@ -482,7 +482,6 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    grid-gap: 10px;
     padding: 25px 0;
   }
   .footer-bottom2 p {
@@ -547,7 +546,64 @@ Mobile part start here
 --------------------------------------- */
 
 @media only screen and (max-width: 650px) {
- 
-  
-
+  .content {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    margin-top: 30px;
+  }
+  .container {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+    background-color: #161616;
+    border-radius: 10px;
+    padding-left: 60px;
+  }
+  .head h1 {
+    color: whitesmoke;
+    font-size: 1.5em;
+    margin-top: 20px;
+    margin-left: 13px;
+    width: 70%;
+    font-weight: bolder;
+    text-align: center;
+  }
+  .head > p {
+    color: whitesmoke;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 1em;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .head-1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -30px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .head-1 img {
+    width: 100%;
+  }
+  .btn {
+    display: flex;
+    background-color: #dd0000;
+    color: whitesmoke;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 160px;
+    height: 45px;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-left: 38px;
+  }
+  .btn p {
+    margin-right: 17px;
+  }
 }
