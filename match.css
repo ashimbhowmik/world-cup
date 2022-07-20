@@ -8,8 +8,6 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-
-
   .content {
     display: flex;
     justify-content: center;
@@ -48,7 +46,7 @@ body {
     justify-content: center;
   }
   .head-1 img {
-    width: 80%;
+    width: 78%;
     transition: width 3s;
     cursor: pointer;
   }
@@ -338,8 +336,7 @@ body {
     justify-content: center;
   }
   .head-1 img {
-    width: 90%;
-    height: 450px;
+    width: 85%;
     transition: width 3s;
   }
   .head-1 img:hover {
@@ -650,6 +647,10 @@ body {
     margin-bottom: 10px;
   }
   .head-1 img {
+    width: 90%;
+    transition: width 3s;
+  }
+  .head-1:hover {
     width: 100%;
   }
   .btn {
@@ -674,7 +675,7 @@ body {
     color: whitesmoke;
   }
   .btn:hover {
-    width: 198px;
+    width: 158px;
     background-color: rgb(227, 76, 0);
   }
   /* Body part start */
@@ -710,6 +711,11 @@ body {
     border: 1px solid rgb(133, 133, 133);
     border-radius: 10px;
     font-size: 0.9em;
+    cursor: pointer;
+  }
+  .side-bar p:hover {
+    background-color: #dd0000;
+    color: whitesmoke;
   }
   .side-bar a {
     text-decoration: none;
@@ -752,6 +758,9 @@ body {
     box-shadow: 2px 2px 6px 3px rgb(187, 187, 187);
     height: 300px;
   }
+  .blog-33:hover {
+    box-shadow: 1px 1px 3px 1px rgb(187, 187, 187);
+  }
   .flag {
     margin-left: 14px;
     margin-right: 14px;
@@ -776,8 +785,12 @@ body {
     background-color: #dd0000;
     color: white;
     font-size: 1.2em;
+    cursor: pointer;
   }
-
+  .btn-22:hover {
+    background-color: #fb4040;
+    width: 29%;
+  }
   .btn-3 {
     background-color: #dd0000;
     display: flex;
@@ -792,7 +805,12 @@ body {
     height: 40px;
     margin: 0 auto;
   }
-
+  .btn-3:hover {
+    width: 29%;
+    font-size: 1.1em;
+    background-color: #fb4040;
+    box-shadow: 1px 1px 2px rgb(122, 122, 122);
+  }
   /* footer part start here */
 
   .footer-main {
