@@ -545,7 +545,7 @@ body {
 Mobile part start here 
 --------------------------------------- */
 
-/* @media only screen and (max-width: 650px) {
+@media only screen and (max-width: 650px) {
   .content {
     display: flex;
     width: 100%;
@@ -722,4 +722,4 @@ Mobile part start here
     height: 40px;
     margin: 0 auto;
   }
-} */
+}
