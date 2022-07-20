@@ -72,6 +72,10 @@ end--------------------------- */
   .btn p {
     margin-right: 17px;
   }
+  .btn a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
   .btn:hover {
     width: 198px;
     background-color: rgb(227, 76, 0);
@@ -335,8 +339,12 @@ end--------------------------- */
     justify-content: center;
   }
   .head-1 img {
-    width: 95%;
+    width: 90%;
     height: 450px;
+    transition: width 3s;
+  }
+  .head-1 img:hover {
+    width: 95%;
   }
   .btn {
     display: flex;
@@ -348,11 +356,19 @@ end--------------------------- */
     height: 50px;
     font-size: 18px;
     border-radius: 10px;
+    cursor: pointer;
   }
   .btn p {
     margin-right: 17px;
   }
-
+  .btn a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
+  .btn:hover {
+    width: 168px;
+    background-color: rgb(227, 76, 0);
+  }
   /* Body part start */
 
   .body-part {
@@ -386,6 +402,10 @@ end--------------------------- */
     border: 1px solid rgb(133, 133, 133);
     border-radius: 10px;
     font-size: 1.3em;
+  }
+  .side-bar p:hover {
+    background-color: #dd0000;
+    color: whitesmoke;
   }
   .side-bar a {
     text-decoration: none;
@@ -425,8 +445,11 @@ end--------------------------- */
     flex-direction: column;
     justify-content: center;
     border-radius: 10px;
-    box-shadow: 2px 2px 6px 3px rgb(187, 187, 187);
+    box-shadow: 2px 2px 8px 3px rgb(187, 187, 187);
     height: 300px;
+  }
+  .blog-33:hover {
+    box-shadow: 1px 1px 4px 2px rgb(187, 187, 187);
   }
   .flag {
     margin-left: 14px;
@@ -453,6 +476,10 @@ end--------------------------- */
     color: white;
     font-size: 1.2em;
   }
+  .btn-22:hover {
+    background-color: #fb4040;
+    width: 29%;
+  }
 
   .btn-3 {
     background-color: #dd0000;
@@ -467,8 +494,14 @@ end--------------------------- */
     width: 15%;
     height: 50px;
     margin: 0 auto;
+    cursor: pointer;
   }
-
+  .btn-3:hover {
+    width: 14%;
+    font-size: 1.1em;
+    background-color: #fb4040;
+    box-shadow: 1px 1px 2px rgb(122, 122, 122);
+  }
   /* footer part start here */
 
   .footer-main {
@@ -637,7 +670,10 @@ end--------------------------- */
   .btn p {
     margin-right: 17px;
   }
-
+  .btn a {
+    text-decoration: none;
+    color: whitesmoke;
+  }
   .btn:hover {
     width: 198px;
     background-color: rgb(227, 76, 0);
