@@ -64,7 +64,9 @@ body {
   }
 
   /* Blog part start */
-
+  #imgg-1 {
+    display: flex;
+  }
   .body-part {
     display: flex;
     justify-content: center;
@@ -128,6 +130,7 @@ body {
   .img-1 {
     display: flex;
     justify-content: center;
+    align-items: center;
   }
   .img-1 img {
     width: 90%;
