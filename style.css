@@ -731,6 +731,7 @@ Mobile part start here
   .side-bar {
     display: flex;
     width: 100%;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: 15px;
@@ -827,24 +828,7 @@ Mobile part start here
   }
 
   .btn-3 {
-    background-color: #dd0000;
-    display: flex;
-    color: #fff;
-    justify-content: center;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 1px 1px 4px 2px rgb(122, 122, 122);
-    font-size: 1.2em;
-    align-items: center;
-    width: 30%;
-    height: 40px;
-    margin: 0 auto;
-  }
-  .btn-3:hover {
-    width: 29%;
-    font-size: 1.1em;
-    background-color: #fb4040;
-    box-shadow: 1px 1px 2px rgb(122, 122, 122);
+    display: none;
   }
 
   /* <!-- -----Body Part end Here------- -->
