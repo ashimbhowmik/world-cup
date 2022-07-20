@@ -240,7 +240,7 @@ body {
   .gap {
     margin-bottom: 20px;
   }
-  .line-1 {
+  #line-1 {
     opacity: 0.4;
   }
   .icon-12 a .fab {
@@ -500,7 +500,7 @@ body {
     margin-bottom: 20px;
     opacity: 0.5;
   }
-  .line-1 {
+  #line-1 {
     width: 85%;
     margin: 0 auto;
     margin-top: 30px;
@@ -721,5 +721,103 @@ Mobile part start here
     width: 30%;
     height: 40px;
     margin: 0 auto;
+  }
+
+  /* footer part start here */
+
+  .footer-main {
+    background-color: #07010a;
+    padding-top: 70px;
+    padding-bottom: 40px;
+  }
+  .footer-part {
+    justify-content: center;
+    width: 85%;
+    margin: 0 auto;
+  }
+  .footer-part2 {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+  }
+  .footer-part3 {
+    width: 100%;
+  }
+  .footer-part4 {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .footer-top {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    font-size: 40px;
+    font-weight: 600;
+    color: gold;
+  }
+  .footer-bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-bottom2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px 0;
+  }
+  .footer-bottom2 p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: whitesmoke;
+    margin-top: 40px;
+    font-size: 1.2em;
+    color: gold;
+  }
+  .line {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 30px;
+    opacity: 0.4;
+  }
+  #line-1 {
+    visibility: hidden;
+  }
+
+  .icon-12 {
+    background-color: #07010a;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+  }
+  .icon-12 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+  }
+  .icon-12 a .fab {
+    font-size: 1.2rem;
+    color: #fec53a;
+    margin-right: 15px;
+  }
+  .icon-12 a:hover {
+    color: #fec53a;
+    font-size: 1.1em;
+    background: none;
+  }
+
+  .bottom {
+    width: 100%;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9em;
+  }
+  .bottom span {
+    color: #fec53a;
   }
 }
