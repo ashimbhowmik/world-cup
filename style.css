@@ -8,6 +8,8 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
+  /* -----Header Part start Here----- */
+
   .content {
     display: flex;
     justify-content: center;
@@ -79,7 +81,10 @@ body {
     background-color: rgb(227, 76, 0);
   }
 
-  /* Blog part start */
+  /* -----Header Part end here------- 
+
+-----Body Part start Here------- */
+
   .body-part {
     display: flex;
     justify-content: center;
@@ -195,7 +200,9 @@ body {
     margin-left: 10px;
   }
 
-  /* footer part start  */
+  /* <!-- -----Body Part end Here------- -->
+
+  <!-- -----Footer Part start Here------- --> */
 
   .footer-main {
     background-color: #07010a;
@@ -298,10 +305,14 @@ body {
   }
 }
 
+/* <!-- -----Footer Part end Here------- --> */
+
 /* tablet device start here 
 ----------------------- */
 
 @media only screen and (min-width: 689px) and (max-width: 991px) {
+  /* <!-- -----Header Part start Here------- --> */
+
   .content {
     display: flex;
     justify-content: center;
@@ -369,7 +380,11 @@ body {
     text-decoration: none;
     color: whitesmoke;
   }
-  /* Body part start */
+
+  /* <!-- -----Header Part end here------- -->
+
+
+  <!-- -----Body Part start Here------- --> */
 
   .body-part {
     display: flex;
@@ -509,7 +524,9 @@ body {
     box-shadow: 1px 1px 2px rgb(122, 122, 122);
   }
 
-  /* footer part start here */
+  /* <!-- -----Body Part end Here------- -->
+
+  <!-- -----Footer Part start Here------- --> */
 
   .footer-main {
     background-color: #07010a;
@@ -611,11 +628,15 @@ body {
   }
 }
 
+/* <!-- -----Footer Part end Here------- --> */
+
 /* ---------------------------------------
 Mobile part start here 
 --------------------------------------- */
 
 @media only screen and (max-width: 688px) {
+  /* <!-- -----Header Part start Here------- --> */
+
   .content {
     display: flex;
     width: 100%;
@@ -690,7 +711,10 @@ Mobile part start here
     color: whitesmoke;
   }
 
-  /* Body part start */
+  /* <!-- -----Header Part end here------- -->
+
+
+  <!-- -----Body Part start Here------- --> */
 
   .body-part {
     display: flex;
@@ -822,7 +846,10 @@ Mobile part start here
     background-color: #fb4040;
     box-shadow: 1px 1px 2px rgb(122, 122, 122);
   }
-  /* footer part start here */
+
+  /* <!-- -----Body Part end Here------- -->
+
+  <!-- -----Footer Part start Here------- --> */
 
   .footer-main {
     background-color: #07010a;
@@ -919,4 +946,6 @@ Mobile part start here
   .bottom span {
     color: #fec53a;
   }
+
+  /* <!-- -----Footer Part end Here------- --> */
 }
