@@ -650,7 +650,7 @@ body {
     width: 90%;
     transition: width 3s;
   }
-  .head-1:hover {
+  .head-1 img:hover {
     width: 100%;
   }
   .btn {
