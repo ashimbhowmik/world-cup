@@ -8,8 +8,7 @@ body {
 }
 
 @media only screen and (min-width: 992px) {
-  /* 
-end--------------------------- */
+
 
   .content {
     display: flex;
@@ -300,7 +299,7 @@ end--------------------------- */
     color: #fec53a;
   }
 }
-@media only screen and (min-width: 651px) and (max-width: 991px) {
+@media only screen and (min-width: 689px) and (max-width: 991px) {
   .content {
     display: flex;
     justify-content: center;
@@ -608,7 +607,7 @@ end--------------------------- */
   Mobile part start here 
   --------------------------------------- */
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 688px) {
   .content {
     display: flex;
     width: 100%;
