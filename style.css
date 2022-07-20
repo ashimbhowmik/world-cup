@@ -47,6 +47,12 @@ body {
   }
   .head-1 img {
     width: 80%;
+    transition: width 3s;
+    cursor: pointer;
+  }
+
+  .head-1 img:hover {
+    width: 88%;
   }
   .btn {
     display: flex;
@@ -58,9 +64,15 @@ body {
     height: 60px;
     font-size: 20px;
     border-radius: 10px;
+    border: none;
+    cursor: pointer;
   }
   .btn p {
     margin-right: 17px;
+  }
+  .btn:hover {
+    width: 198px;
+    background-color: rgb(227, 76, 0);
   }
 
   /* Blog part start */
@@ -95,12 +107,16 @@ body {
     margin: 15px;
     border-radius: 10px;
     font-size: 1.3em;
+    cursor: pointer;
   }
   .side-bar a {
     text-decoration: none;
     color: black;
   }
-
+  .side-bar p:hover {
+    background-color: #dd0000;
+    color: whitesmoke;
+  }
   #mark {
     background-color: #dd0000;
     color: whitesmoke;
@@ -121,8 +137,11 @@ body {
     width: 90%;
   }
   .blog-3 {
-    box-shadow: 2px 2px 6px 3px rgb(187, 187, 187);
+    box-shadow: 2px 2px 8px 3px rgb(187, 187, 187);
     border-radius: 12px;
+  }
+  .blog-3:hover {
+    box-shadow: 1px 1px 3px 2px rgb(187, 187, 187);
   }
   .img-1 {
     display: flex;
@@ -139,9 +158,17 @@ body {
     width: 100px;
     height: 30px;
     font-size: 1em;
-    background-color: white;
+    color: white;
     border-radius: 7px;
     margin-bottom: 10px;
+    cursor: pointer;
+    background-color: rgb(250, 11, 111);
+    box-shadow: 2px 2px 3px rgb(187, 187, 187);
+    border: none;
+  }
+  .btn-2:hover {
+    background-color: #fb4040;
+    box-shadow: 0px 0px 0px rgb(187, 187, 187);
   }
   .btn-3 {
     display: none;
@@ -266,6 +293,10 @@ body {
     color: #fec53a;
   }
 }
+
+/* tablet device start here 
+----------------------- */
+
 @media only screen and (min-width: 651px) and (max-width: 991px) {
   .content {
     display: flex;
