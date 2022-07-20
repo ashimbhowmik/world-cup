@@ -64,9 +64,6 @@ body {
   }
 
   /* Blog part start */
-  #imgg-1 {
-    display: flex;
-  }
   .body-part {
     display: flex;
     justify-content: center;
